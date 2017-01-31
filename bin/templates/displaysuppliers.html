@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Product Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"></link>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script th:src="@{/content/bootstrap/js/bootstrap.min.js}"></script>
+	<script th:src="@{/content/script/jQuery.js}"></script>	
+</head>
+<body>
+	<h1>Suppliers</h1>
+	<div class="container-fluid">
+		<div class="table-responsive"> 
+		 <table class="table table-striped">
+		 	<thead>
+                <tr>
+                	<th>Id</th>
+                    <th>First Name</th>
+                  	<th>Last Name</th>
+                  	<th>Email</th>
+                  	<th>Address</th>
+                  	<th>Contact Number</th>
+                  	<th>Product</th>
+                                	
+                </tr>
+              
+		 	</thead>
+		 	<tbody>
+
+                <tr th:each="supplier : ${supplier}">
+    				<td th:text="${supplier.id}"></td>
+    				<td th:text="${supplier.firstName}"></td>
+    				<td th:text="${supplier.lastName}"></td>
+    				<td th:text="${supplier.email}"></td>
+    				<td th:text="${supplier.address}"></td>
+    				<td th:text="${supplier.contactNumber}"></td>
+    				<td th:text="${supplier.productId}"></td>
+    				
+ 				</tr>
+              </tbody>
+		 </table>
+		</div>
+    </div>
+     <!-- <p th:text="'First Name : ' + ${customer.firstName}" />
+    <p th:text="'Last Name: ' + ${customer.lastName}" /> -->
+    <a href="/suppliers" class="btn btn-large btn-success">Add Suppliers</a> 
+    <script th:inline="javascript">
+		
+		totalPage = '[[${totalPage}]]';
+		</script>	
+    
+</body>
+</html>
