@@ -244,7 +244,14 @@ public class ProductTester extends BaseTest {
 		}
 		
 		
+		
 	
 	}
+	
+	@Test
+	public void testdata(){
+		System.out.println("its a test");
+	}
+	
 
 }
