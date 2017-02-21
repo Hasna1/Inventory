@@ -37,18 +37,16 @@ public class ProductServiceJpaImpl implements ProductService{
 	@Override
 	public Product insert(Product product) {
 		// TODO Auto-generated method stub
+		
 		return this.productrepository.save(product);
 
 	}
 
 	@Override
 	public Product edit(Product product) {
-		// TODO Auto-generated method stub
-		//Pageable p = new PageRequest(0, 10);
-		//Page<Product> page = this.productrepository.findByProductName("sdfds", p);
-
+		
 		return this.productrepository.save(product);
-	}
+		}
 
 
 
@@ -75,9 +73,5 @@ public class ProductServiceJpaImpl implements ProductService{
 
 	}
 
-//	@Override
-//	public Page<Product> listAllByPage(Pageable pageable) {
-//		// TODO Auto-generated method stub
-//		return productrepository.findAll(pageable);	}
 
 }

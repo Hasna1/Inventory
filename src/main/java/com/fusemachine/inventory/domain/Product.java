@@ -23,8 +23,7 @@ public class Product {
 	
 	private String productName,category,costPrice,sellingPrice;
 	private Integer quantity;
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date addedDate,modifiedDate;
+	
 	private Boolean status;
 	
 	
@@ -33,18 +32,17 @@ public class Product {
 	}
 
 
-	public Product(int id, String productName, String category,
+	public Product( String productName, String category,
 			String costPrice, String sellingPrice, Integer quantity,
-			Date addedDate, Date modifiedDate, Boolean status) {
+			 Boolean status) {
 		super();
-		this.id = id;
+		//this.id = id;
 		this.productName = productName;
 		this.category = category;
 		this.costPrice = costPrice;
 		this.sellingPrice = sellingPrice;
 		this.quantity = quantity;
-		this.addedDate = addedDate;
-		this.modifiedDate = modifiedDate;
+		
 		this.status = status;
 	}
 
@@ -116,26 +114,7 @@ public class Product {
 	}
 
 
-	@Column(name="added_date")
-	public Date getAddedDate() {
-		return addedDate;
-	}
 
-
-	public void setAddedDate(Date addedDate) {
-		this.addedDate = addedDate;
-	}
-
-	@NotNull
-	@Column(name="modified_date")
-	public Date getModifiedDate() {
-		return modifiedDate;
-	}
-
-
-	public void setModifiedDate(Date modifiedDate) {
-		this.modifiedDate = modifiedDate;
-	}
 
 	@NotNull
 	@Column(name="status")
@@ -154,8 +133,8 @@ public class Product {
 		return "Product [id=" + id + ", productName=" + productName
 				+ ", category=" + category + ", costPrice=" + costPrice
 				+ ", sellingPrice=" + sellingPrice + ", quantity=" + quantity
-				+ ", addedDate=" + addedDate + ", modifiedDate=" + modifiedDate
-				+ ", status=" + status + "]";
+				+ 
+				", status=" + status + "]";
 	}
 	
 	

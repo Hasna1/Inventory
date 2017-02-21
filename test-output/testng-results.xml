@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13317" started-at="2017-02-20T10:38:23Z" finished-at="2017-02-20T10:38:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13317" started-at="2017-02-20T10:38:23Z" finished-at="2017-02-20T10:38:37Z">
+      <class name="com.fusemachine.inventory.ProductTester">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="33" started-at="2017-02-20T16:23:23Z" finished-at="2017-02-20T16:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="12065" started-at="2017-02-20T16:23:23Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-02-20T16:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="setup" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testallproduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testallproduct()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="testallproduct" duration-ms="312" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testallproduct -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testallproduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testdeleteById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testdeleteById()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="testdeleteById" duration-ms="220" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeleteById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testdeleteById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testedit()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="testedit" duration-ms="141" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testedit -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testedit()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testedit()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testfindAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testfindAll()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="testfindAll" duration-ms="78" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfindAll -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testfindAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testfindById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testfindById()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="testfindById" duration-ms="83" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfindById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testfindById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testgetSearchProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testgetSearchProduct()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="testgetSearchProduct" duration-ms="193" started-at="2017-02-20T16:23:36Z" finished-at="2017-02-20T16:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetSearchProduct -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:37Z" finished-at="2017-02-20T16:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testgetSearchProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:37Z" finished-at="2017-02-20T16:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testinsert()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testinsert()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="testinsert" duration-ms="130" started-at="2017-02-20T16:23:37Z" finished-at="2017-02-20T16:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinsert -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-02-20T16:23:37Z" finished-at="2017-02-20T16:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fusemachine.inventory.ProductTester.testinsert()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.fusemachine.inventory.ProductTester@395281c2]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-02-20T16:23:37Z" finished-at="2017-02-20T16:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.fusemachine.inventory.ProductTester -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
